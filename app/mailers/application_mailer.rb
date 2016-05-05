@@ -4,6 +4,6 @@ class ApplicationMailer < ActionMailer::Base
 
   def sample_email(user)
     @user = user
-    mail(to: @user.email, subject: 'Sample Email')
+    mail(to: @user.email, bcc:"mesarosda@gmail.com", subject: 'Sample Email')
   end
 end

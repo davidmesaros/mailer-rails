@@ -55,7 +55,5 @@ group :production do
 
 end
 
-group :development do
-  gem 'figaro'
-end
+
 
