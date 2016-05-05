@@ -7,6 +7,7 @@ gem 'rails', '4.2.2'
 # gem 'sqlite3'
 gem "twitter-bootstrap-rails"
 gem 'dotenv-rails', :groups => [:development, :test]
+
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
@@ -52,5 +53,9 @@ group :production do
 
   gem 'rails_12factor'
 
+end
+
+group :development do
+  gem 'figaro'
 end
 
